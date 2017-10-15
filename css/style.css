@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+html {
+	font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	background: #151515 /*url('../images/bg.png')*/ no-repeat fixed left bottom;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.header {
+	padding-top: 170px;
+	padding-right: 30px;
+	padding-bottom: 80px;
+	padding-left: 30px;
+}
+
+.site-title-sub {
+	margin: 0 0 30px;
+	letter-spacing: 1px;
+	font-size: 3.2rem;
+}
+
+.site-title-sub::before,
+.site-title-sub::after {
+	content: '';
+	display: inline-block;
+	width: 140px;
+	height: 2px;
+	margin: 0 30px;
+	background-color: #fff;
+	vertical-align: middle;
+}
+
+.site-info {
+	margin: 30px 0px 40px;
+	font-size: 2.0rem;
+}
+
+.button {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	border: none;
+	padding: 20px;
+	border-radius: 4px;
+	#background-color: #afa58d;
+	#color: #fff;
+	#text-decoration: none;
+	#letter-spacing: 1px;
+	#font-size: 1.4rem;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button-about {
+	background: url('../images/resume/about.png') no-repeat;
+	background-size: cover;
+}
+
+.button-education {
+	background: url('../images/resume/education.png') no-repeat;
+	background-size: cover;
+}
+
+.button-honor {
+	background: url('../images/resume/honor.png') no-repeat;
+	background-size: cover;
+}
+
+.button-personal_experience {
+	background: url('../images/resume/work.png') no-repeat;
+	background-size: cover;
+}
+
+.button-teaching_experience {
+	background: url('../images/resume/teaching.png') no-repeat;
+	background-size: cover;
+}
+
+.button-additional_skill {
+	background: url('../images/resume/skill.png') no-repeat;
+	background-size: cover;
+}
+
+.buttons .button {
+	margin: 4px;
+}
+
+.about {
+	padding: 80px 30px;
+	background-color: #fff;
+	color: #333;
+}
