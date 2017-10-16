@@ -34,7 +34,7 @@ body {
 .site-title-sub::after {
 	content: '';
 	display: inline-block;
-	width: 140px;
+	width: 160px;
 	height: 2px;
 	margin: 0 30px;
 	background-color: #fff;
@@ -95,11 +95,67 @@ body {
 }
 
 .buttons .button {
-	margin: 4px;
+	margin: 24px;
 }
 
 .about {
-	padding: 80px 30px;
+	padding: 80px 0px;
 	background-color: #fff;
 	color: #333;
+}
+
+.heading {
+	position: relative;
+	margin: 0px 150px 50px;
+	text-align: left;
+	font-size: 4rem;
+	padding-bottom: 8px;
+}
+
+.heading::before,
+.heading::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 2px solid #333;
+}
+
+.about-text {
+	margin: 30px 150px;
+	text-align: left;
+	line-height: 2.5;
+	font-size: 2rem;
+}
+
+.education {
+	background-color: #383634;
+	padding: 80px 0px;
+}
+
+.master {
+	background: url('../images/resume/NTUST.jpg') no-repeat;
+	display: inline-block;
+	text-align: left;
+	width: 256px;
+	height: 256px;
+	border: none;
+	border-radius: 4px;
+	margin: 0px 30px 0px 30px;
+	#padding: 0px 50px;
+	background-size: cover;
+}
+
+.bachelor {
+	background: url('../images/resume/THU.jpg') no-repeat;
+	display: inline-block;
+	text-align: left;
+	width: 256px;
+	height: 256px;
+	border: none;
+	border-radius: 4px;
+	
+	padding: 0px 50px;
+	background-size: cover;
 }
